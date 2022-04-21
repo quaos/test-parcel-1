@@ -1,0 +1,14 @@
+/public
+/dist
+/node_modules
+/elm-stuff
+/build
+yarn-error.log
+elm.json
+.env.local
+.cache/
+.git
+.DS_Store
+.scannerwork*
+.nvmrc
+sonar-project.properties

@@ -1,0 +1,18 @@
+{
+  "presets": [
+    "@parcel/babel-preset-env"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-nullish-coalescing-operator",
+      {},
+      "proposal-nullish-coalescing-operator"
+    ],
+    [
+      "@babel/plugin-proposal-optional-chaining",
+      {},
+      "proposal-optional-chaining"
+    ],
+    "@parcel/babel-plugin-transform-runtime"
+  ]
+}
