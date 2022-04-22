@@ -1,0 +1,47 @@
+/* TODO: Replace with SCSS */
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tabs .tabs-head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 0;
+}
+
+.tabs .tabs-head li {
+    display: flex;
+    list-style-type: none;
+    color: #888;
+    padding: 0.5em;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+.tabs .tabs-head li.active {
+    display: flex;
+    color: black;
+    border-bottom: none;
+}
+
+.tabs .tabs-head li.remaining-space {
+    display: flex;
+    flex-grow: 1;
+    border-bottom: 1px solid #888;
+    border-top: none;
+    border-right: none;
+    cursor: auto;
+}
+
+.tabs .tabs-body {
+    flex-grow: 1;
+    width: 100%;
+    padding-left: 1em;
+    border-left: 1px solid #888;
+    border-right: 1px solid #888;
+    border-bottom: 1px solid #888;
+}

@@ -1,0 +1,20 @@
+/* TODO: Replace with SCSS */
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+}
+
+.todo-list li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: start;
+    justify-items: stretch;
+}
+
+.todo-list date {
+    font-size: smaller;
+    font-style: italic;
+}

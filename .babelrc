@@ -13,6 +13,16 @@
       {},
       "proposal-optional-chaining"
     ],
-    "@parcel/babel-plugin-transform-runtime"
+    // WORKAROUND: For https://github.com/parcel-bundler/parcel/issues/1762
+    [
+      "@parcel/babel-plugin-transform-runtime",
+      {
+        // "corejs": {
+        //   "version": 3
+        // },
+        "regenerator": true,
+        "debug": true
+      }
+    ]
   ]
 }
